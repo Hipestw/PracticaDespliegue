@@ -14,5 +14,5 @@ Lenguaje **markdown**, práctica para la asignatura de _Despliegue_
 ## Wireframes
 
 *[Mi wireframe]*
-[2]:https://github.com/Hipestw/PracticaDespliegue/blob/master/Wireframe/CapturaWireframe.PNG
+[2]:https://github.com/Hipestw/PracticaDespliegue/blob/master/Wireframe/Wireframe.pdf
 

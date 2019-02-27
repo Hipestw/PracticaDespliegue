@@ -81,6 +81,34 @@
             <iframe class="embed-responsive-item" src="videos/code.mp4"></iframe>
           </div>
 
+          <!-- inio comentarios -->
+          <hr>
+          <h1>Déjanos tu opinión en los comentarios:</h1>
+          <hr/>
+          <div>
+
+            <h4>Por favor escribe un comentario: </h4><br/>
+            <form action="PaginaJavascript.php" method="POST" enctype="multipart/form-data">
+	            <input type="text" name='nombre' required placeholder="Nombre"><br/>	
+              <input type="hidden" name="fecha" value="25/02/2019">
+              <input type="hidden" name="lenguaje" value="PaginaJavascript.php">
+              <textarea name="comentario" rows="4" cols="50" placeholder="Escribe aquí tu comentario"></textarea><br/>
+              <input type="submit" value="Enviar" />
+            </form>
+          </div>
+          <div>
+            <h4>Estos usuarios ya han dejado su comentario:</h4>
+
+            <form action="PaginaJavascript.php" method="POST" enctype="multipart/form-data">
+              <input type="hidden" name="lenguaje" value="PaginaJavascript.php">   
+              <input type="hidden" name="fecha" value="no">
+              <input type="submit" value="Ver comentarios" /> 
+            </form>
+          </div>
+
+	<?php include 'script.php'; ?> 
+	<!-- fin comentarios -->
+
       </div>
       <div class="col-sm-2 sidenav">
         <div class="well">
